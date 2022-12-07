@@ -2,15 +2,15 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>Web AR Sample</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全自動</title>
   </head>
-
-
-<center>
-<body>
- <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
- <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
- <model-viewer poster="https://dcdvd.github.io/kitchenAR/loading.gif" src="https://dcdvd.github.io/zenjidou/zenjidou.gltf" ar ios-src="https://dcdvd.github.io/zenjidou/zenjidou.usdz" style="width:640px;height:640px;" auto-rotate camera-controls></model-viewer>
-</body>
-</center>
+	<center>
+  <body>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <model-viewer ar ar-modes="scene-viewer quick-look webxr" poster="https://dcdvd.github.io/kitchenAR/loading.gif" src="https://dcdvd.github.io/zenjidou/zenjidou.gltf" style="width:100vmin;height:80vmin" auto-rotate camera-controls></model-viewer>
+  </body>
+	</center>
 </html>
